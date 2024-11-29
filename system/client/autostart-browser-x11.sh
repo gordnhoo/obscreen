@@ -43,6 +43,7 @@ chromium-browser \
   --disable-web-security \
   --disable-restore-session-state \
   --autoplay-policy=no-user-gesture-required \
+  --enable-features=OverlayScrollbar,OverlayScrollbarFlashAfterAnyScrollUpdate,OverlayScrollbarFlashWhenMouseEnter \ #Removes all scrollbars therefore creating more space for the dashboards
   --start-maximized \
   --allow-running-insecure-content \
   --remember-cert-error-decisions \
